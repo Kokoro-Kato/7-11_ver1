@@ -193,54 +193,12 @@ img {
     display: block;      /*フッターのロゴのサイズを調整できるようにする。*/
     width: 600px;        /*フッターのロゴのサイズを調整する。*/
     margin-top: 90px;    /*フッターロゴの余白を調整する。*/
+    max-width: 100%;
+    height: auto;
 }
 
 .copyright {
     font-size: 14pt;      /*コピーライトの文字の大きさを調整*/
     font-weight: bold;    /*コピーライトの文字を太字にする*/
     margin-top: 90px;     /*フッターの最上部の余白を調整*/
-}
-
-@media (max-width: 800px) {
-    .site-menu ul {
-        display: block;
-        text-align: center;
-    }
-
-    .site-menu li {
-        margin-top: 20px;
-    }
-
-    .header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background-color: #ffffff;
-        height: 50px;
-        z-index: 10;
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .header-inner {
-        padding-left: 20px;
-        padding-right: 20px;
-        height: 100%;
-    }
-
-    .header-logo {
-        width: 100px;
-    }
-
-    .main {
-        padding-top: 50px;
-    }
-
-    .footer-logo {
-        margin-top: 60px;
-    }
-
-    .copyright {
-        margin-top: 50px;
-    }
 }

@@ -191,6 +191,8 @@ img {
 
     .header-logo {
         width: 100px;
+        max-width: 100%;
+        height: auto;
     }
 
     .main {
@@ -198,7 +200,11 @@ img {
     }
 
     .footer-logo {
-        margin-top: 60px;
+        display: block;      /*フッターのロゴのサイズを調整できるようにする。*/
+        width: 600px;        /*フッターのロゴのサイズを調整する。*/
+        margin-top: 90px;    /*フッターロゴの余白を調整する。*/
+        max-width: 100%;
+        height: auto;
     }
 
     .copyright {
