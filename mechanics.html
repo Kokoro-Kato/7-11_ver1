@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>                            <!--headタグでは文書の基本情報を記述-->
+        <meta charset="UTF-8">        <!--文字コードを指定-->
+        <title>力学</title>                                    <!--ウェブページのタブに書かれるタイトル-->
+        <meta name="description" content="力学の概要">               <!--そのページの概要を記す(ページを開いても見えないのでざっくりでいい)-->
+        <meta name="viewport" content="width=device-width">        <!--表示領域を定義-->
+        <script src="js/toggle-menu.js"></script>                  <!--ページ内で動くものについて設定する-->
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/mechanics.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">    
+    </head>
+    <body>                                  <!--bodyタグでは実際にページの体裁を定義する-->
+        <header class="header">             <!--bodyを構成する３要素のうち一つであるヘッダー部分について-->
+            <div class="header-inner">                                <!--divタグでヘッダー内に箱を作成-->
+                <a class="header-logo" href="index.html">             <!--aタグで、クリックできる画像を貼り付けできる。href=の後のURLは画像をクリックしたときに飛ぶページ-->
+                    <img src="images/common/logo.png" alt="ロゴ">     <!--貼り付ける画像ファイルのパスを記述。ただし、このcommon.htmlと同じ場所にあるか同じ場所にあるフォルダ内に無いといけない。altの部分はその画像の説明であるが、無くてもページ上の表示に支障はない。-->
+                </a>
+                <button class="toggle-menu-button"></button>        <!--buttonタグでモバイル表示用-->
+                <div class="header-site-menu">                      <!--力学、波、電磁気、原子が並ぶ箱を用意-->
+                    <nav class="site-menu">                                   <!--ナビゲーションリンクをグループ化するnavタグ-->
+                        <ul>                                                 <!--ulタグとliタグは一緒に使われる。項目を表示するために使われる。-->
+                            <li><a href="mechanics.html">力学</a></li>       <!--実際にページに表示させる項目名(力学)と、「力学」をクリックしたときに飛ぶページのリンクを貼り付ける。-->
+                            <li><a href="wave.html">波</a></li>
+                            <li><a href="electronics.html">電磁気</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">       <!--bodyを構成する３要素のうち一つであるメイン部分について-->
+            <div class="title">
+                <h1>力学</h1>
+            </div>
+            <div class="chapter">
+                <div class="chapter-text">
+                    <h2>等加速度直線運動</h2>
+                    <p><span>等加速度直線運動</span>は，加速度が一定でかつ，一直線上を移動する運動のことである．<br>
+                    等加速度直線運動を考えることで，速度が変わる運動についても考えることができる．<br>
+                    等加速度直線運動には3つ公式があり，それを以下に示す．
+                    余談だが，この公式は加速度が一定であれば使えるため，加速度の値が0になる等速直線運動にも使うことができる．</p><br>
+                    <img src="images/mechanics/formula1.png" alt="公式1"> 
+                </div>
+            </div>
+            <div class="chapter reverse">
+                <div class="chapter-text">
+                    <h2>運動の3法則</h2>
+                    <p>運動の3法則について紹介する．<br>
+                    運動の第一法則は，<span>慣性の法則</span>と呼ばれる．慣性とは物体が運動の状態を保とうとする性質である．<br>
+                    運動の第二法則は，<span>運動の法則</span>と呼ばれる．この中には非常に重要な公式である<span>運動方程式</span>が含まれている．その公式を以下に示す．</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">          <!--bodyを構成する３要素のうち一つであるフッター部分について-->
+            <nav class="site-menu">      <!--ナビゲーションリンクをグループ化するnavタグ-->
+                <ul>
+                    <li><a href="mechanics.html">力学</a></li>
+                    <li><a href="wave.html">波</a></li>
+                    <li><a href="electronics.html">電磁気</a></li>
+                </ul>
+            </nav>
+            <a class="footer-logo" href="index.html">                    <!--クリックできる画像の設定。href後のリンクは、画像をクリックしたときに飛ぶページ-->
+                <img src="images/common/logo_footer.png" alt="ロゴ">
+            </a>
+            <p class="copyright">
+                サイトの作成者<br><br>
+                <small>
+                    231205062 加藤 康介 <br>
+                    231205063 加藤 心
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>

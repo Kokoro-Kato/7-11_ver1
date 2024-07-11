@@ -1,0 +1,88 @@
+.title {
+    height: 400px;
+    background-image: url(../images/mechanics/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.title h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 16px;
+    margin-top: 15px;
+    color: blue;
+}
+
+.chapter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+}
+
+.chapter-text {
+    max-width: 500px;
+    margin-right: 40px;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .chapter-text {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.chapter-text h2 {
+    font-size: 50px;
+    line-height: 30px;
+}
+
+.chapter-text h2 ::after {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.chapter-text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+span{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 23, 23);
+}
+
+span
+
+.footer {
+    margin-top: 100px;
+}
