@@ -17,13 +17,6 @@
     font-weight: bold;
 }
 
-
-.title p {
-    font-size: 16px;
-    margin-top: 15px;
-    color: blue;
-}
-
 .chapter {
     display: flex;
     flex-direction: column;
@@ -53,15 +46,6 @@
 .chapter-text h2 {
     font-size: 50px;
     line-height: 50px;
-}
-
-.chapter-text h2 ::after {
-    content: "";
-    display: block;
-    width: 36px;
-    height: 3px;
-    background-color: #000000;
-    margin-top: 20px;
 }
 
 .chapter-text p {
